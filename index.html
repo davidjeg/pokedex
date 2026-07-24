@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="eng">
+  <head>
+    <title>Pokedex David Encarnacion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="pokemonStyle.css" />
+    <link rel="stylesheet" href="./styles/pokemon-card.css" />
+    <link rel="stylesheet" href="./styles/pokemon-types.css" />
+    <link rel="stylesheet" href="./styles/skeleton-card.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="container navbar">
+        <input
+          name="pokemon-search"
+          id="pokemon-search"
+          class="search_input"
+          type="text"
+          placeholder="Nombre pokemon... ej: Pikachu"
+        />
+        <p class="navbar__logo">Pokedex</p>
+      </nav>
+    </header>
+    <div class="section__wrapper">
+      <section class="container pokemons"></section>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>

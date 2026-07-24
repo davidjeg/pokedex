@@ -1,0 +1,21 @@
+/* types */
+.pokemon__types {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+.pokemon__type {
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemon__types-img {
+  width: 16px;
+  height: 16px;
+}

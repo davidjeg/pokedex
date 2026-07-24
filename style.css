@@ -1,0 +1,54 @@
+:root {
+  --text-color: 96.7% 0.001 286.375;
+  --color-fill: 21% 0.006 285.885;
+  --color-zinc-950: 14.1% 0.005 285.823;
+  --color-zinc-900: 21% 0.006 285.885;
+  --color-indigo-500: 58.5% 0.233 277.117;
+
+  --stroke-strong: 70.5% 0.015 286.067;
+  --stroke-weak: 37% 0.013 285.805;
+  --color-overlay: 0.274 0.006 286.033;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: oklch(var(--color-zinc-900));
+}
+::-webkit-scrollbar-thumb {
+  background-color: oklch(var(--color-indigo-500));
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: oklch(var(--text-color));
+  background-color: oklch(var(--color-zinc-950));
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+button {
+  all: unset;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.section__wrapper {
+  padding: 0 16px;
+}

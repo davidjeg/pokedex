@@ -1,0 +1,58 @@
+<!DOCTYPE html />
+<html>
+  <head>
+    <meta name="vieport" content="width=device-width, initial-scale= 1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link
+      rel="stylesheet"
+      href="../styles/pokemon-details/pokemon-profile.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../styles/pokemon-details/pokemon-details.css"
+    />
+    <link rel="stylesheet" href="../styles/pokemon-details/pokemon-stats.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="container navbar">
+        <a href="index.html" class="navbar__back-container" id="back">
+          <svg
+            width="800px"
+            height="800px"
+            viewBox="0 0 1024 1024"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill="currentColor"
+              d="M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64z"
+            />
+            <path
+              fill="currentColor"
+              d="m237.248 512 265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312L237.248 512z"
+            />
+          </svg>
+        </a>
+        <p class="navbar__logo">Pokedex</p>
+      </nav>
+    </header>
+
+    <div class="section__wrapper">
+      <div class="container">
+        <section class="pokemon-details"></section>
+        <section class="evolution-chain">
+          <h3>Evolution Chain</h3>
+          <div class="evolution-sprites"></div>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="pokemonDetail.js"></script>
+  </body>
+</html>

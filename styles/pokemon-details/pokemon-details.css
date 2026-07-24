@@ -1,0 +1,20 @@
+.pokemon__details {
+  border-collapse: collapse;
+
+  flex: 1;
+}
+.pokemon__details td {
+  text-align: left;
+  font-weight: 600;
+  padding: 8px 0;
+}
+#pokemon__abilities {
+  display: flex;
+  gap: 8px;
+}
+.pokemon__details th {
+  text-align: right;
+  font-weight: 500;
+  color: #6b7280;
+  padding: 8px;
+}

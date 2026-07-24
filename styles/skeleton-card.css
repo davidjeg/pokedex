@@ -1,0 +1,28 @@
+/* SKELETON */
+.skeleton-card {
+  animation: pulse 1.5s infinite;
+}
+.skeleton__img {
+  width: 100%;
+  height: 120px;
+  background: #ddd;
+  border-radius: 8px;
+}
+
+.skeleton__text {
+  width: 100%;
+  height: 22px;
+  background: #ddd;
+  border-radius: 8px;
+}
+@keyframes pulse {
+  0% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

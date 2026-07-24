@@ -1,0 +1,27 @@
+.pokemon__stats {
+  flex: 1;
+}
+.pokemon__stats-label {
+  width: 300px;
+}
+.pokemon__stats-bar {
+  background-color: orange;
+  width: 100%;
+  border-radius: 8px;
+}
+.pokemon__stats-label {
+  padding: 8px;
+  white-space: nowrap;
+  text-align: right;
+
+  font-weight: 500;
+  color: #6b7280;
+}
+.pokemon__stats-number {
+  text-align: right;
+}
+
+.pokemon__stats-value {
+  width: 100%;
+  padding: 8px;
+}
